@@ -40,29 +40,34 @@
     text-align: center;
     justify-content: center;
     gap: 60px;
+    font-size: 28px;
 }
 
 .score{
     border: 1px solid black;
-    width: 100px;
-    height: 50px;
+    border-radius: 10px ;
+    width: 200px;
+    /* height: 50px; */
     margin-top: 50px;
 }
 
+.score .player{
+    font-size: 25px;
+    color:white;
+    background-color: black; 
+    border-radius:10px 10px 0px 0px ;
+}
 
-.message-container {
+.message-container{
     text-align: center;
     margin-top: 50px;
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
 }
 
 .message-container p {
-    display: inline-block;
-    text-align: center;
     background-color: black;
-    color: ;
-    padding: 12px;
+    font-size: 30px;
+    color: white;
+    display: inline-block;
+    padding: 15px;
     border-radius: 10px;
 }
